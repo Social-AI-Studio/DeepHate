@@ -31,6 +31,7 @@ epoch =
 |CNN (Wiki)                      |      |     |    |
 
 Fusion Comparison
+
 | Model                          | Prec | Rec | F1 |
 |:-------------------------------|:----:|:---:|:--:|
 |LSTM (3 word_emb) - gate-two    |      |     |    |
@@ -44,6 +45,7 @@ Fusion Comparison
 |LSTM (glove,topic) - gate       |      |     |    |
 
 Other baselines
+
 | Model                          | Prec | Rec | F1 |
 |:-------------------------------|:----:|:---:|:--:|
 |CNN-W                           |      |     |    |
@@ -75,6 +77,7 @@ epoch =
 |CNN (Wiki)                      |      |     |    |
 
 Fusion Comparison
+
 | Model                          | Prec | Rec | F1 |
 |:-------------------------------|:----:|:---:|:--:|
 |LSTM (3 word_emb) - gate-two    |      |     |    |
@@ -88,6 +91,7 @@ Fusion Comparison
 |LSTM (glove,topic) - gate       |      |     |    |
 
 Other baselines
+
 | Model                          | Prec | Rec | F1 |
 |:-------------------------------|:----:|:---:|:--:|
 |CNN-W                           |      |     |    |
@@ -118,6 +122,7 @@ epoch =
 |CNN (Wiki)                      |      |     |    |
 
 Fusion Comparison
+
 | Model                          | Prec | Rec | F1 |
 |:-------------------------------|:----:|:---:|:--:|
 |LSTM (3 word_emb) - gate-two    |      |     |    |
@@ -131,6 +136,7 @@ Fusion Comparison
 |LSTM (glove,topic) - gate       |      |     |    |
 
 Other baselines
+
 | Model                          | Prec | Rec | F1 |
 |:-------------------------------|:----:|:---:|:--:|
 |CNN-W                           |      |     |    |
