@@ -13,14 +13,14 @@ To cite:
 ```
 
 **DT dataset**
-Parameters for below results:
-Num_hidden_state = 200
-emb_dropout = 0.5
-fc_dropout = 0.2
-num_filter = 50 for each kind of filter size
-filter_size = 1,2,3 
-length of tweets = 30
-epoch = 7
+Parameters for below results:  
+Num_hidden_state = 200  
+emb_dropout = 0.5  
+fc_dropout = 0.2  
+num_filter = 50 for each kind of filter size  
+filter_size = 1,2,3   
+length of tweets = 30  
+epoch = 7  
 
 Without Attention  
 
@@ -30,7 +30,7 @@ Without Attention
 |LSTM (Fastext)                  | 89.51      | 90.42     | 89.53    |
 |LSTM (Wiki)                     | 89.34      | 90.27     | 89.35    |
 |CNN (Glove)                     | 89.13      | 89.81     | 89.22    |
-|CNN (Fastext)                   |      |     |    |
+|CNN (Fastext)                   | 89.25      | 90.30     | 89.42    |
 |CNN (Wiki)                      | 89.66      | 90.62     | 89.62    |
 
 Fusion Comparison
@@ -40,7 +40,7 @@ Fusion Comparison
 |LSTM (3 word_emb) - gate-two    |      |     |    |
 |LSTM (3 word_emb) - gate-three  | 89.75      | 90.61     | 89.88    |
 |LSTM (3 word_emb) - concate     |      |     |    |
-|LSTM (glove,fastext) - gate     |      |     |    |
+|LSTM (glove,fastext) - gate     | 89.79      | 90.58     | 89.84    |
 |LSTM (glove,fastext) - concate  |      |     |    |
 |LSTM (glove,wiki) - gate        |      |     |    |
 |LSTM (glove,wiki) - concate     |      |     |    |
@@ -70,16 +70,16 @@ Other baselines
 
 
 **Founta dataset**
-Parameters for below results:
-Num_hidden_state = 200
-emb_dropout = 0.5
-fc_dropout = 0.2
-num_filter = 50 for each kind of filter size
-filter_size = 1,2,3 
-length of tweets = 30
-epoch = 10  
+Parameters for below results:  
+Num_hidden_state = 200  
+emb_dropout = 0.5  
+fc_dropout = 0.2  
+num_filter = 50 for each kind of filter size  
+filter_size = 1,2,3   
+length of tweets = 30  
+epoch = 10    
 
-Without Attention  
+Without Attention    
 
 
 | Model                          | Prec | Rec | F1 |
@@ -88,7 +88,7 @@ Without Attention
 |LSTM (Fastext)                  | 80.10      | 81.40     | 80.36    |
 |LSTM (Wiki)                     | 79.29      | 80.56     | 79.57    |
 |CNN (Glove)                     | 80.06      | 80.59     | 80.07    |
-|CNN (Fastext)                   |      |     |    |
+|CNN (Fastext)                   | 80.24      | 81.06     | 80.34    |
 |CNN (Wiki)                      | 79.64      | 80.23     | 79.66    |
 
 Fusion Comparison
@@ -96,9 +96,9 @@ Fusion Comparison
 | Model                          | Prec | Rec | F1 |
 |:-------------------------------|:----:|:---:|:--:|
 |LSTM (3 word_emb) - gate-two    |      |     |    |
-|LSTM (3 word_emb) - gate-three  |      |     |    |
+|LSTM (3 word_emb) - gate-three  | 79.46      | 80.44     | 79.68    |
 |LSTM (3 word_emb) - concate     |      |     |    |
-|LSTM (glove,fastext) - gate     |      |     |    |
+|LSTM (glove,fastext) - gate     | 80.05      | 80.98     | 80.30    |
 |LSTM (glove,fastext) - concate  |      |     |    |
 |LSTM (glove,wiki) - gate        |      |     |    |
 |LSTM (glove,wiki) - concate     |      |     |    |
@@ -127,16 +127,16 @@ Other baselines
 |CNN-GRU                         | 79.91      | 80.51     | 79.96    |
 
 **WZ dataset**
-Parameters for below results:
-Num_hidden_state = 200
-emb_dropout = 0.5
-fc_dropout = 0.2
-num_filter = 50 for each kind of filter size
-filter_size = 1,2,3 
-length of tweets = 30
-epoch = 7
+Parameters for below results:  
+Num_hidden_state = 200  
+emb_dropout = 0.5  
+fc_dropout = 0.2  
+num_filter = 50 for each kind of filter size  
+filter_size = 1,2,3   
+length of tweets = 30  
+epoch = 7  
 
-Without Attention  
+Without Attention    
 
 | Model                          | Prec | Rec | F1 |
 |:-------------------------------|:----:|:---:|:--:|
@@ -144,7 +144,7 @@ Without Attention
 |LSTM (Fastext)                  | 75.85      | 77.81     | 76.14    |
 |LSTM (Wiki)                     | 78.49      | 79.87     | 78.49    |
 |CNN (Glove)                     | 78.08      | 79.67     | 77.50    |
-|CNN (Fastext)                   |      |     |    |
+|CNN (Fastext)                   | 76.66      | 78.32     | 76.68    |
 |CNN (Wiki)                      | 79.59      | 79.99     | 78.73    |
 
 Fusion Comparison
@@ -154,7 +154,7 @@ Fusion Comparison
 |LSTM (3 word_emb) - gate-two    |      |     |    |
 |LSTM (3 word_emb) - gate-three  | 77.85      | 78.90     | 77.61    |
 |LSTM (3 word_emb) - concate     |      |     |    |
-|LSTM (glove,fastext) - gate     |      |     |    |
+|LSTM (glove,fastext) - gate     | 77.08      | 79.10     | 76.55    |
 |LSTM (glove,fastext) - concate  |      |     |    |
 |LSTM (glove,wiki) - gate        |      |     |    |
 |LSTM (glove,wiki) - concate     |      |     |    |
