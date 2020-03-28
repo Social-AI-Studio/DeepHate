@@ -42,12 +42,12 @@ Fusion Comparison
 |LSTM (3 word_emb) - concate     | 89.42      | 90.42     | 89.45    |
 |LSTM (glove,fastext) - gate     | 89.79      | 90.58     | 89.84    |
 |LSTM (glove,fastext) - concate  |      |     |    |
-|LSTM (glove,wiki) - gate        |      |     |    |
+|LSTM (glove,wiki) - gate        | 89.42      | 90.13     | 89.42    |
 |LSTM (glove,wiki) - concate     |      |     |    |
 |LSTM (fastext,wiki) - gate      |      |     |    |
 |LSTM (fastext,wiki) - concate   |      |     |    |
-|LSTM (3 word_emb,senti) - gate  |      |     |    |
-|LSTM (3 word_emb,senti) - concate|      |     |    |
+|LSTM (3 word_emb,senti) - gate  | 89.68      | 90.46     | 89.66    |
+|LSTM (3 word_emb,senti) - concate| 89.66     | 90.46     | 89.75    |
 |LSTM (3 word_emb,topic) - gate  |      |     |    |
 |LSTM (3 word_emb,topic) - concate|      |     |    |
 |LSTM (glove,senti) - gate       |      |     |    |
@@ -100,16 +100,16 @@ Fusion Comparison
 |LSTM (3 word_emb) - concate     | 79.13      | 80.13     | 79.50    |
 |LSTM (glove,fastext) - gate     | 80.05      | 80.98     | 80.30    |
 |LSTM (glove,fastext) - concate  |      |     |    |
-|LSTM (glove,wiki) - gate        |      |     |    |
+|LSTM (glove,wiki) - gate        | 79.28      | 80.44     | 79.57    |
 |LSTM (glove,wiki) - concate     |      |     |    |
 |LSTM (fastext,wiki) - gate      |      |     |    |
 |LSTM (fastext,wiki) - concate   |      |     |    |
-|LSTM (3 word_emb,senti) - gate  |      |     |    |
-|LSTM (3 word_emb,senti) - concate|      |     |    |
+|LSTM (3 word_emb,senti) - gate  | 79.28      | 80.55     | 79.60    |
+|LSTM (3 word_emb,senti) - concate| 79.85      | 81.12     | 79.88    |
 |LSTM (3 word_emb,topic) - gate  |      |     |    |
 |LSTM (3 word_emb,topic) - concate|      |     |    |
 |LSTM (glove,senti) - gate       |      |     |    |
-|LSTM (glove,senti) - concate    |      |     |    |
+|LSTM (glove,senti) - concate    | 80.01      | 80.97     | 80.16    |
 |LSTM (glove,topic) - gate       |      |     |    |
 |LSTM (glove,topic) - concate    |      |     |    |
 
@@ -156,12 +156,12 @@ Fusion Comparison
 |LSTM (3 word_emb) - concate     | 77.83      | 78.86     | 77.89    |
 |LSTM (glove,fastext) - gate     | 77.08      | 79.10     | 76.55    |
 |LSTM (glove,fastext) - concate  |      |     |    |
-|LSTM (glove,wiki) - gate        |      |     |    |
+|LSTM (glove,wiki) - gate        | 78.53      | 79.05     | 77.45    |
 |LSTM (glove,wiki) - concate     |      |     |    |
 |LSTM (fastext,wiki) - gate      |      |     |    |
 |LSTM (fastext,wiki) - concate   |      |     |    |
-|LSTM (3 word_emb,senti) - gate  |      |     |    |
-|LSTM (3 word_emb,senti) - concate|      |     |    |
+|LSTM (3 word_emb,senti) - gate  | 77.30      | 79.23     | 77.41    |
+|LSTM (3 word_emb,senti) - concate| 77.93      | 79.37     | 77.77    |
 |LSTM (3 word_emb,topic) - gate  |      |     |    |
 |LSTM (3 word_emb,topic) - concate|      |     |    |
 |LSTM (glove,senti) - gate       |      |     |    |
