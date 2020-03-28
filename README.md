@@ -36,13 +36,21 @@ Fusion Comparison
 |:-------------------------------|:----:|:---:|:--:|
 |LSTM (3 word_emb) - gate-two    |      |     |    |
 |LSTM (3 word_emb) - gate-three  |      |     |    |
+|LSTM (3 word_emb) - concate     |      |     |    |
 |LSTM (glove,fastext) - gate     |      |     |    |
+|LSTM (glove,fastext) - concate  |      |     |    |
 |LSTM (glove,wiki) - gate        |      |     |    |
+|LSTM (glove,wiki) - concate     |      |     |    |
 |LSTM (fastext,wiki) - gate      |      |     |    |
+|LSTM (fastext,wiki) - concate   |      |     |    |
 |LSTM (3 word_emb,senti) - gate  |      |     |    |
+|LSTM (3 word_emb,senti) - concate|      |     |    |
 |LSTM (3 word_emb,topic) - gate  |      |     |    |
+|LSTM (3 word_emb,topic) - concate|      |     |    |
 |LSTM (glove,senti) - gate       |      |     |    |
+|LSTM (glove,senti) - concate    |      |     |    |
 |LSTM (glove,topic) - gate       |      |     |    |
+|LSTM (glove,topic) - concate    |      |     |    |
 
 Other baselines
 
@@ -82,13 +90,21 @@ Fusion Comparison
 |:-------------------------------|:----:|:---:|:--:|
 |LSTM (3 word_emb) - gate-two    |      |     |    |
 |LSTM (3 word_emb) - gate-three  |      |     |    |
+|LSTM (3 word_emb) - concate     |      |     |    |
 |LSTM (glove,fastext) - gate     |      |     |    |
+|LSTM (glove,fastext) - concate  |      |     |    |
 |LSTM (glove,wiki) - gate        |      |     |    |
+|LSTM (glove,wiki) - concate     |      |     |    |
 |LSTM (fastext,wiki) - gate      |      |     |    |
+|LSTM (fastext,wiki) - concate   |      |     |    |
 |LSTM (3 word_emb,senti) - gate  |      |     |    |
+|LSTM (3 word_emb,senti) - concate|      |     |    |
 |LSTM (3 word_emb,topic) - gate  |      |     |    |
+|LSTM (3 word_emb,topic) - concate|      |     |    |
 |LSTM (glove,senti) - gate       |      |     |    |
+|LSTM (glove,senti) - concate    |      |     |    |
 |LSTM (glove,topic) - gate       |      |     |    |
+|LSTM (glove,topic) - concate    |      |     |    |
 
 Other baselines
 
@@ -127,13 +143,21 @@ Fusion Comparison
 |:-------------------------------|:----:|:---:|:--:|
 |LSTM (3 word_emb) - gate-two    |      |     |    |
 |LSTM (3 word_emb) - gate-three  |      |     |    |
+|LSTM (3 word_emb) - concate     |      |     |    |
 |LSTM (glove,fastext) - gate     |      |     |    |
+|LSTM (glove,fastext) - concate  |      |     |    |
 |LSTM (glove,wiki) - gate        |      |     |    |
+|LSTM (glove,wiki) - concate     |      |     |    |
 |LSTM (fastext,wiki) - gate      |      |     |    |
+|LSTM (fastext,wiki) - concate   |      |     |    |
 |LSTM (3 word_emb,senti) - gate  |      |     |    |
+|LSTM (3 word_emb,senti) - concate|      |     |    |
 |LSTM (3 word_emb,topic) - gate  |      |     |    |
+|LSTM (3 word_emb,topic) - concate|      |     |    |
 |LSTM (glove,senti) - gate       |      |     |    |
+|LSTM (glove,senti) - concate    |      |     |    |
 |LSTM (glove,topic) - gate       |      |     |    |
+|LSTM (glove,topic) - concate    |      |     |    |
 
 Other baselines
 
