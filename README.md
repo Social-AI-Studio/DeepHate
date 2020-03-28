@@ -11,3 +11,134 @@ To cite:
     publisher={ACM}
 }
 ```
+
+**DT dataset**
+Parameters for below results:
+Num_hidden_state = 200
+emb_dropout = 
+fc_dropout = 
+num_filter =
+filter_size =
+epoch = 
+
+| Model                          | Prec | Rec | F1 |
+|:-------------------------------|:----:|:---:|:--:|
+|LSTM (Glove)                    |      |     |    |
+|LSTM (Fastext)                  |      |     |    |
+|LSTM (Wiki)                     |      |     |    |
+|CNN (Glove)                     |      |     |    |
+|CNN (Fastext)                   |      |     |    |
+|CNN (Wiki)                      |      |     |    |
+
+Fusion Comparison
+| Model                          | Prec | Rec | F1 |
+|:-------------------------------|:----:|:---:|:--:|
+|LSTM (3 word_emb) - gate-two    |      |     |    |
+|LSTM (3 word_emb) - gate-three  |      |     |    |
+|LSTM (glove,fastext) - gate     |      |     |    |
+|LSTM (glove,wiki) - gate        |      |     |    |
+|LSTM (fastext,wiki) - gate      |      |     |    |
+|LSTM (3 word_emb,senti) - gate  |      |     |    |
+|LSTM (3 word_emb,topic) - gate  |      |     |    |
+|LSTM (glove,senti) - gate       |      |     |    |
+|LSTM (glove,topic) - gate       |      |     |    |
+
+Other baselines
+| Model                          | Prec | Rec | F1 |
+|:-------------------------------|:----:|:---:|:--:|
+|CNN-W                           |      |     |    |
+|CNN-C                           |      |     |    |
+|CNN-B                           |      |     |    |
+|LSTM-W                          |      |     |    |
+|LSTM-C                          |      |     |    |
+|LSTM-B                          |      |     |    |
+|HybridCNN                       |      |     |    |
+|CNN-GRU                         |      |     |    |
+
+
+**Founta dataset**
+Parameters for below results:
+Num_hidden_state = 200
+emb_dropout = 
+fc_dropout = 
+num_filter =
+filter_size =
+epoch = 
+
+| Model                          | Prec | Rec | F1 |
+|:-------------------------------|:----:|:---:|:--:|
+|LSTM (Glove)                    |      |     |    |
+|LSTM (Fastext)                  |      |     |    |
+|LSTM (Wiki)                     |      |     |    |
+|CNN (Glove)                     |      |     |    |
+|CNN (Fastext)                   |      |     |    |
+|CNN (Wiki)                      |      |     |    |
+
+Fusion Comparison
+| Model                          | Prec | Rec | F1 |
+|:-------------------------------|:----:|:---:|:--:|
+|LSTM (3 word_emb) - gate-two    |      |     |    |
+|LSTM (3 word_emb) - gate-three  |      |     |    |
+|LSTM (glove,fastext) - gate     |      |     |    |
+|LSTM (glove,wiki) - gate        |      |     |    |
+|LSTM (fastext,wiki) - gate      |      |     |    |
+|LSTM (3 word_emb,senti) - gate  |      |     |    |
+|LSTM (3 word_emb,topic) - gate  |      |     |    |
+|LSTM (glove,senti) - gate       |      |     |    |
+|LSTM (glove,topic) - gate       |      |     |    |
+
+Other baselines
+| Model                          | Prec | Rec | F1 |
+|:-------------------------------|:----:|:---:|:--:|
+|CNN-W                           |      |     |    |
+|CNN-C                           |      |     |    |
+|CNN-B                           |      |     |    |
+|LSTM-W                          |      |     |    |
+|LSTM-C                          |      |     |    |
+|LSTM-B                          |      |     |    |
+|HybridCNN                       |      |     |    |
+|CNN-GRU                         |      |     |    |
+
+**WZ dataset**
+Parameters for below results:
+Num_hidden_state = 200
+emb_dropout = 
+fc_dropout = 
+num_filter =
+filter_size =
+epoch = 
+
+| Model                          | Prec | Rec | F1 |
+|:-------------------------------|:----:|:---:|:--:|
+|LSTM (Glove)                    |      |     |    |
+|LSTM (Fastext)                  |      |     |    |
+|LSTM (Wiki)                     |      |     |    |
+|CNN (Glove)                     |      |     |    |
+|CNN (Fastext)                   |      |     |    |
+|CNN (Wiki)                      |      |     |    |
+
+Fusion Comparison
+| Model                          | Prec | Rec | F1 |
+|:-------------------------------|:----:|:---:|:--:|
+|LSTM (3 word_emb) - gate-two    |      |     |    |
+|LSTM (3 word_emb) - gate-three  |      |     |    |
+|LSTM (glove,fastext) - gate     |      |     |    |
+|LSTM (glove,wiki) - gate        |      |     |    |
+|LSTM (fastext,wiki) - gate      |      |     |    |
+|LSTM (3 word_emb,senti) - gate  |      |     |    |
+|LSTM (3 word_emb,topic) - gate  |      |     |    |
+|LSTM (glove,senti) - gate       |      |     |    |
+|LSTM (glove,topic) - gate       |      |     |    |
+
+Other baselines
+| Model                          | Prec | Rec | F1 |
+|:-------------------------------|:----:|:---:|:--:|
+|CNN-W                           |      |     |    |
+|CNN-C                           |      |     |    |
+|CNN-B                           |      |     |    |
+|LSTM-W                          |      |     |    |
+|LSTM-C                          |      |     |    |
+|LSTM-B                          |      |     |    |
+|HybridCNN                       |      |     |    |
+|CNN-GRU                         |      |     |    |
+
