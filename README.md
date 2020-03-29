@@ -59,10 +59,10 @@ Fusion Comparison
 |LSTM (glove,senti,topic) - gate  |           |           |          |
 |LSTM (glove,senti,topic) - concate|          |           |          |
 |CNN (3 word_emb) - gate-two    |            |           |          |
-|CNN (3 word_emb) - gate-three  |            |           |          |
+|CNN (3 word_emb) - gate-three  |89.59            |90.46           |89.64          |
 |CNN (3 word_emb) - concate     |            |           |          |
-|CNN (glove,fastext) - gate     |            |           |          |
-|CNN (glove,fastext) - concate  |            |           |          |
+|CNN (glove,fastext) - gate     |89.39            |90.41           |89.52          |
+|CNN (glove,fastext) - concate  |89.32            |90.07           |89.31          |
 |CNN (glove,wiki) - gate        |            |           |          |
 |CNN (glove,wiki) - concate     |            |           |          |
 |CNN (fastext,wiki) - gate      |            |           |          |
@@ -163,10 +163,10 @@ Fusion Comparison
 |LSTM (glove,senti,topic) - gate  |           |           |          |
 |LSTM (glove,senti,topic) - concate|          |           |          |
 |CNN (3 word_emb) - gate-two    |            |           |          |
-|CNN (3 word_emb) - gate-three  |            |           |          |
+|CNN (3 word_emb) - gate-three  |79.36            |79.88           |79.37          |
 |CNN (3 word_emb) - concate     |            |           |          |
-|CNN (glove,fastext) - gate     |            |           |          |
-|CNN (glove,fastext) - concate  |            |           |          |
+|CNN (glove,fastext) - gate     |79.82            |80.39           |79.79          |
+|CNN (glove,fastext) - concate  |80.03            |80.63           |80.11          |
 |CNN (glove,wiki) - gate        |            |           |          |
 |CNN (glove,wiki) - concate     |            |           |          |
 |CNN (fastext,wiki) - gate      |            |           |          |
@@ -265,10 +265,10 @@ Fusion Comparison
 |LSTM (glove,senti,topic) - gate  |           |           |          |
 |LSTM (glove,senti,topic) - concate|          |           |          |
 |CNN (3 word_emb) - gate-two    |            |           |          |
-|CNN (3 word_emb) - gate-three  |            |           |          |
+|CNN (3 word_emb) - gate-three  |78.51            |79.61           |78.35          |
 |CNN (3 word_emb) - concate     |            |           |          |
-|CNN (glove,fastext) - gate     |            |           |          |
-|CNN (glove,fastext) - concate  |            |           |          |
+|CNN (glove,fastext) - gate     |76.82            |78.83           |76.18          |
+|CNN (glove,fastext) - concate  |77.21            |79.27           |77.11          |
 |CNN (glove,wiki) - gate        |            |           |          |
 |CNN (glove,wiki) - concate     |            |           |          |
 |CNN (fastext,wiki) - gate      |            |           |          |
