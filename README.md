@@ -83,9 +83,9 @@ Fusion Comparison
 |CNN (glove,topic) - concate    |88.93            |89.99           |89.10          |
 |CNN (glove,senti,topic) - gate  |88.72           |89.81           |88.96          |
 |CNN (glove,senti,topic) - concate|88.84           |89.80           |88.97          |
-|CNN-LSTM (3 word_emb) - gate-two    |            |           |          |
-|CNN-LSTM (3 word_emb) - gate-three  |            |           |          |
-|CNN-LSTM (3 word_emb) - concate     |            |           |          |
+|CNN-LSTM (3 word_emb) - gate-two    |89.94            |90.50           |90.00          |
+|CNN-LSTM (3 word_emb) - gate-three  |89.83            |90.41           |89.88          |
+|CNN-LSTM (3 word_emb) - concate     |89.41            |90.44           |89.48          |
 |CNN-LSTM (3 word_emb) - mean        |            |           |          |
 |CNN-LSTM (3 word_emb) - hyper       |            |           |          |
 |CNN-LSTM (glove,fastext) - gate     |            |           |          |
@@ -98,14 +98,14 @@ Fusion Comparison
 |CNN-LSTM (3 word_emb,senti) - concate|89.64            |90.40           |89.61          |
 |CNN-LSTM (3 word_emb,topic) - gate  |89.53            |90.38           |89.74          |
 |CNN-LSTM (3 word_emb,topic) - concate|89.65            |90.44           |89.63          |
-|CNN-LSTM (3 word_emb,senti,topic) - gate  |      |           |          |
-|CNN-LSTM (3 word_emb,senti,topic) - concate|     |           |          |
+|CNN-LSTM (3 word_emb,senti,topic) - gate  |89.60      |90.32           |89.64          |
+|CNN-LSTM (3 word_emb,senti,topic) - concate|89.16     |90.25           |89.17          |
 |CNN-LSTM (glove,senti) - gate       |88.73            |89.86           |88.66          |
 |CNN-LSTM (glove,senti) - concate    |89.01            |89.86           |88.99          |
 |CNN-LSTM (glove,topic) - gate       |88.67            |89.90           |88.56          |
 |CNN-LSTM (glove,topic) - concate    |88.65            |89.67           |88.59          |
-|CNN-LSTM (glove,senti,topic) - gate  |           |           |          |
-|CNN-LSTM (glove,senti,topic) - concate|          |           |          |
+|CNN-LSTM (glove,senti,topic) - gate  |89.01           |89.75           |88.91          |
+|CNN-LSTM (glove,senti,topic) - concate|88.69          |89.77           |88.66          |
 
 Other baselines
 
@@ -193,9 +193,9 @@ Fusion Comparison
 |CNN (glove,topic) - concate    |80.03            |80.68           |80.06          |
 |CNN (glove,senti,topic) - gate  |79.92           |80.54           |79.85          |
 |CNN (glove,senti,topic) - concate|79.95           |80.55           |79.91          |
-|CNN-LSTM (3 word_emb) - gate-two    |            |           |          |
-|CNN-LSTM (3 word_emb) - gate-three  |            |           |          |
-|CNN-LSTM (3 word_emb) - concate     |            |           |          |
+|CNN-LSTM (3 word_emb) - gate-two    |79.16            |80.13           |79.37          |
+|CNN-LSTM (3 word_emb) - gate-three  |79.03            |80.09           |79.32          |
+|CNN-LSTM (3 word_emb) - concate     |79.11            |80.40           |79.44          |
 |CNN-LSTM (3 word_emb) - mean        |            |           |          |
 |CNN-LSTM (3 word_emb) - hyper       |            |           |          |
 |CNN-LSTM (glove,fastext) - gate     |            |           |          |
@@ -208,14 +208,14 @@ Fusion Comparison
 |CNN-LSTM (3 word_emb,senti) - concate|79.37            |80.05           |79.50          |
 |CNN-LSTM (3 word_emb,topic) - gate  |79.18            |80.25           |79.36          |
 |CNN-LSTM (3 word_emb,topic) - concate|79.43            |80.20           |79.56          |
-|CNN-LSTM (3 word_emb,senti,topic) - gate  |      |           |          |
-|CNN-LSTM (3 word_emb,senti,topic) - concate|     |           |          |
+|CNN-LSTM (3 word_emb,senti,topic) - gate  |79.20      |80.36           |79.49          |
+|CNN-LSTM (3 word_emb,senti,topic) - concate|79.16     |80.34           |79.49          |
 |CNN-LSTM (glove,senti) - gate       |79.99            |80.34           |79.81          |
 |CNN-LSTM (glove,senti) - concate    |79.84            |80.30           |79.81          |
 |CNN-LSTM (glove,topic) - gate       |80.02            |80.57           |79.93          |
 |CNN-LSTM (glove,topic) - concate    |80.15            |80.69           |80.10          |
-|CNN-LSTM (glove,senti,topic) - gate  |           |           |          |
-|CNN-LSTM (glove,senti,topic) - concate|          |           |          |
+|CNN-LSTM (glove,senti,topic) - gate  |79.88           |80.36           |79.76          |
+|CNN-LSTM (glove,senti,topic) - concate|79.88          |80.61           |79.97          |
 
 Other baselines
 
@@ -301,9 +301,9 @@ Fusion Comparison
 |CNN (glove,topic) - concate    |77.80            |79.40           |77.18          |
 |CNN (glove,senti,topic) - gate  |77.92           |79.83           |77.77          |
 |CNN (glove,senti,topic) - concate|77.66           |79.34           |76.79          |
-|CNN-LSTM (3 word_emb) - gate-two    |            |           |          |
-|CNN-LSTM (3 word_emb) - gate-three  |            |           |          |
-|CNN-LSTM (3 word_emb) - concate     |            |           |          |
+|CNN-LSTM (3 word_emb) - gate-two    |76.69            |77.78           |76.47          |
+|CNN-LSTM (3 word_emb) - gate-three  |77.27            |79.22           |77.35          |
+|CNN-LSTM (3 word_emb) - concate     |76.78            |78.44           |77.05          |
 |CNN-LSTM (3 word_emb) - mean        |            |           |          |
 |CNN-LSTM (3 word_emb) - hyper       |            |           |          |
 |CNN-LSTM (glove,fastext) - gate     |            |           |          |
@@ -316,14 +316,14 @@ Fusion Comparison
 |CNN-LSTM (3 word_emb,senti) - concate|76.88            |78.63           |76.94          |
 |CNN-LSTM (3 word_emb,topic) - gate  |78.14            |78.98           |77.68          |
 |CNN-LSTM (3 word_emb,topic) - concate|77.27            |79.49           |77.47          |
-|CNN-LSTM (3 word_emb,senti,topic) - gate  |      |           |          |
-|CNN-LSTM (3 word_emb,senti,topic) - concate|     |           |          |
+|CNN-LSTM (3 word_emb,senti,topic) - gate  |77.35      |79.26           |77.43          |
+|CNN-LSTM (3 word_emb,senti,topic) - concate|77.29     |79.00           |77.53          |
 |CNN-LSTM (glove,senti) - gate       |77.49            |79.46           |76.86          |
 |CNN-LSTM (glove,senti) - concate    |78.18            |80.25           |77.68          |
 |CNN-LSTM (glove,topic) - gate       |77.53            |79.54           |76.90          |
 |CNN-LSTM (glove,topic) - concate    |78.14            |80.16           |77.66          |
-|CNN-LSTM (glove,senti,topic) - gate  |           |           |          |
-|CNN-LSTM (glove,senti,topic) - concate|          |           |          |
+|CNN-LSTM (glove,senti,topic) - gate  |76.41           |79.39           |76.29          |
+|CNN-LSTM (glove,senti,topic) - concate|77.21          |79.36           |77.28          |
 
 Other baselines
 
