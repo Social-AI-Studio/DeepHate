@@ -77,7 +77,7 @@ Fusion Comparison
 |CNN (glove,senti) - concate    |88.97            |89.79           |89.13          |
 |CNN (glove,topic) - gate       |89.55            |90.28           |89.65          |
 |CNN (glove,topic) - concate    |88.93            |89.99           |89.10          |
-|CNN (glove,senti,topic) - gate  |           |           |          |
+|CNN (glove,senti,topic) - gate  |88.72           |89.81           |88.96          |
 |CNN (glove,senti,topic) - concate|88.84           |89.80           |88.97          |
 |CNN-LSTM (3 word_emb) - gate-two    |            |           |          |
 |CNN-LSTM (3 word_emb) - gate-three  |            |           |          |
@@ -181,7 +181,7 @@ Fusion Comparison
 |CNN (glove,senti) - concate    |79.95            |80.50           |80.01          |
 |CNN (glove,topic) - gate       |80.04            |80.50           |79.81          |
 |CNN (glove,topic) - concate    |80.03            |80.68           |80.06          |
-|CNN (glove,senti,topic) - gate  |           |           |          |
+|CNN (glove,senti,topic) - gate  |79.92           |80.54           |79.85          |
 |CNN (glove,senti,topic) - concate|79.95           |80.55           |79.91          |
 |CNN-LSTM (3 word_emb) - gate-two    |            |           |          |
 |CNN-LSTM (3 word_emb) - gate-three  |            |           |          |
@@ -283,7 +283,7 @@ Fusion Comparison
 |CNN (glove,senti) - concate    |77.39            |79.14           |76.87          |
 |CNN (glove,topic) - gate       |78.13            |79.98           |78.22          |
 |CNN (glove,topic) - concate    |77.80            |79.40           |77.18          |
-|CNN (glove,senti,topic) - gate  |           |           |          |
+|CNN (glove,senti,topic) - gate  |77.92           |79.83           |77.77          |
 |CNN (glove,senti,topic) - concate|77.66           |79.34           |76.79          |
 |CNN-LSTM (3 word_emb) - gate-two    |            |           |          |
 |CNN-LSTM (3 word_emb) - gate-three  |            |           |          |
