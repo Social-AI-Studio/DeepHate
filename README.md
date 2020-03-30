@@ -40,6 +40,8 @@ Fusion Comparison
 |LSTM (3 word_emb) - gate-two    | 90.10      | 90.60     | 90.10    |
 |LSTM (3 word_emb) - gate-three  | 89.75      | 90.61     | 89.88    |
 |LSTM (3 word_emb) - concate     | 89.42      | 90.42     | 89.45    |
+|LSTM (3 word_emb) - mean        |            |           |          |
+|LSTM (3 word_emb) - hyper       |            |           |          |
 |LSTM (glove,fastext) - gate     | 89.79      | 90.58     | 89.84    |
 |LSTM (glove,fastext) - concate  | 90.02      | 90.67     | 89.94    |
 |LSTM (glove,wiki) - gate        | 89.42      | 90.13     | 89.42    |
@@ -61,6 +63,8 @@ Fusion Comparison
 |CNN (3 word_emb) - gate-two    |89.19            |90.19           |89.32          |
 |CNN (3 word_emb) - gate-three  |89.59            |90.46           |89.64          |
 |CNN (3 word_emb) - concate     |89.59            |90.40           |89.68          |
+|CNN (3 word_emb) - mean        |            |           |          |
+|CNN (3 word_emb) - hyper       |            |           |          |
 |CNN (glove,fastext) - gate     |89.39            |90.41           |89.52          |
 |CNN (glove,fastext) - concate  |89.32            |90.07           |89.31          |
 |CNN (glove,wiki) - gate        |89.47            |90.40           |89.51          |
@@ -82,6 +86,8 @@ Fusion Comparison
 |CNN-LSTM (3 word_emb) - gate-two    |            |           |          |
 |CNN-LSTM (3 word_emb) - gate-three  |            |           |          |
 |CNN-LSTM (3 word_emb) - concate     |            |           |          |
+|CNN-LSTM (3 word_emb) - mean        |            |           |          |
+|CNN-LSTM (3 word_emb) - hyper       |            |           |          |
 |CNN-LSTM (glove,fastext) - gate     |            |           |          |
 |CNN-LSTM (glove,fastext) - concate  |            |           |          |
 |CNN-LSTM (glove,wiki) - gate        |            |           |          |
@@ -144,6 +150,8 @@ Fusion Comparison
 |LSTM (3 word_emb) - gate-two    | 79.32      | 80.33     | 79.61    |
 |LSTM (3 word_emb) - gate-three  | 79.46      | 80.44     | 79.68    |
 |LSTM (3 word_emb) - concate     | 79.13      | 80.13     | 79.50    |
+|LSTM (3 word_emb) - mean        |            |           |          |
+|LSTM (3 word_emb) - hyper       |            |           |          |
 |LSTM (glove,fastext) - gate     | 80.05      | 80.98     | 80.30    |
 |LSTM (glove,fastext) - concate  | 80.10      | 81.26     | 80.39    |
 |LSTM (glove,wiki) - gate        | 79.28      | 80.44     | 79.57    |
@@ -165,6 +173,8 @@ Fusion Comparison
 |CNN (3 word_emb) - gate-two    |79.39            |79.81           |79.23          |
 |CNN (3 word_emb) - gate-three  |79.36            |79.88           |79.37          |
 |CNN (3 word_emb) - concate     |79.32            |79.93           |79.37          |
+|CNN (3 word_emb) - mean        |            |           |          |
+|CNN (3 word_emb) - hyper       |            |           |          |
 |CNN (glove,fastext) - gate     |79.82            |80.39           |79.79          |
 |CNN (glove,fastext) - concate  |80.03            |80.63           |80.11          |
 |CNN (glove,wiki) - gate        |79.44            |80.06           |79.49          |
@@ -186,6 +196,8 @@ Fusion Comparison
 |CNN-LSTM (3 word_emb) - gate-two    |            |           |          |
 |CNN-LSTM (3 word_emb) - gate-three  |            |           |          |
 |CNN-LSTM (3 word_emb) - concate     |            |           |          |
+|CNN-LSTM (3 word_emb) - mean        |            |           |          |
+|CNN-LSTM (3 word_emb) - hyper       |            |           |          |
 |CNN-LSTM (glove,fastext) - gate     |            |           |          |
 |CNN-LSTM (glove,fastext) - concate  |            |           |          |
 |CNN-LSTM (glove,wiki) - gate        |            |           |          |
@@ -246,6 +258,8 @@ Fusion Comparison
 |LSTM (3 word_emb) - gate-two    | 78.05      | 79.19     | 77.77    |
 |LSTM (3 word_emb) - gate-three  | 77.85      | 78.90     | 77.61    |
 |LSTM (3 word_emb) - concate     | 77.83      | 78.86     | 77.89    |
+|LSTM (3 word_emb) - mean        |            |           |          |
+|LSTM (3 word_emb) - hyper       |            |           |          |
 |LSTM (glove,fastext) - gate     | 77.08      | 79.10     | 76.55    |
 |LSTM (glove,fastext) - concate  | 77.05      | 78.52     | 76.64    |
 |LSTM (glove,wiki) - gate        | 78.53      | 79.05     | 77.45    |
@@ -267,6 +281,8 @@ Fusion Comparison
 |CNN (3 word_emb) - gate-two    |77.76            | 79.80          |77.78          |
 |CNN (3 word_emb) - gate-three  |78.51            |79.61           |78.35          |
 |CNN (3 word_emb) - concate     |78.40            |80.04           |78.24          |
+|CNN (3 word_emb) - mean        |            |           |          |
+|CNN (3 word_emb) - hyper       |            |           |          |
 |CNN (glove,fastext) - gate     |76.82            |78.83           |76.18          |
 |CNN (glove,fastext) - concate  |77.21            |79.27           |77.11          |
 |CNN (glove,wiki) - gate        |79.49            |79.89           |78.48          |
@@ -288,6 +304,8 @@ Fusion Comparison
 |CNN-LSTM (3 word_emb) - gate-two    |            |           |          |
 |CNN-LSTM (3 word_emb) - gate-three  |            |           |          |
 |CNN-LSTM (3 word_emb) - concate     |            |           |          |
+|CNN-LSTM (3 word_emb) - mean        |            |           |          |
+|CNN-LSTM (3 word_emb) - hyper       |            |           |          |
 |CNN-LSTM (glove,fastext) - gate     |            |           |          |
 |CNN-LSTM (glove,fastext) - concate  |            |           |          |
 |CNN-LSTM (glove,wiki) - gate        |            |           |          |
