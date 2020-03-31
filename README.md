@@ -143,7 +143,7 @@ Final Presentation Table - Overall
 |LSTM-C                          | 77.21      | 79.88     | 76.47    |
 |LSTM-B                          | 59.97      | 77.44     | 67.60    |
 |HybridCNN                       |            |           |          |
-|CNN-GRU                         |            |           |          |
+|CNN-GRU                         | 87.60      | 88.24     | 87.23    |
 |DeepHate (Random)               |            |           |          |
 |DeepHate (Glove)                |            |           |          |
 |DeepHate (Fastext)              |            |           |          |
@@ -295,8 +295,8 @@ Final Presentation Table - Overall
 |LSTM-W                          | 79.45      | 80.68     | 79.31    |
 |LSTM-C                          | 70.80      | 71.57     | 67.95    |
 |LSTM-B                          | 54.33      | 61.02     | 54.02    |
-|HybridCNN                       |            |           |          |
-|CNN-GRU                         |            |           |          |
+|HybridCNN                       | 79.39      | 80.51     | 79.18    |
+|CNN-GRU                         | 78.74      | 80.01     | 78.80    |
 |DeepHate (Random)               |            |           |          |
 |DeepHate (Glove)                |            |           |          |
 |DeepHate (Fastext)              |            |           |          |
@@ -445,8 +445,8 @@ Final Presentation Table - Overall
 |LSTM-W                          | 75.39      | 79.52     | 74.52    |
 |LSTM-C                          | 74.82      | 78.13     | 71.95    |
 |LSTM-B                          | 54.77      | 74.01     | 62.95    |
-|HybridCNN                       |            |           |          |
-|CNN-GRU                         |            |           |          |
+|HybridCNN                       | 76.35      | 78.93     | 75.98    |
+|CNN-GRU                         | 75.33      | 79.27     | 74.42    |
 |DeepHate (Random)               |            |           |          |
 |DeepHate (Glove)                |            |           |          |
 |DeepHate (Fastext)              |            |           |          |
