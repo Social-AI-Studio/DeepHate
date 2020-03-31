@@ -142,7 +142,7 @@ Final Presentation Table - Overall
 |LSTM-W                          | 88.08      | 89.08     | 87.87    |
 |LSTM-C                          | 77.21      | 79.88     | 76.47    |
 |LSTM-B                          | 59.97      | 77.44     | 67.60    |
-|HybridCNN                       |            |           |          |
+|HybridCNN                       | 88.33      | 88.96     | 88.07    |
 |CNN-GRU                         | 87.60      | 88.24     | 87.23    |
 |DeepHate (Random)               |            |           |          |
 |DeepHate (Glove)                |            |           |          |
