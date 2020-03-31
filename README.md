@@ -33,6 +33,18 @@ Without Attention
 |CNN (Fastext)                   | 89.25      | 90.30     | 89.42    |
 |CNN (Wiki)                      | 89.66      | 90.62     | 89.62    |
 
+With Attention  
+
+| Model                          | Prec | Rec | F1 |
+|:-------------------------------|:----:|:---:|:--:|
+|LSTM (Glove)                    |      |     |    |
+|LSTM (Fastext)                  |      |     |    |
+|LSTM (Wiki)                     |      |     |    |
+|CNN (Glove)                     |      |     |    |
+|CNN (Fastext)                   |      |     |    |
+|CNN (Wiki)                      |      |     |    |
+
+
 Fusion Comparison
 
 | Model                          | Prec | Rec | F1 |
@@ -174,6 +186,18 @@ Without Attention
 |CNN (Fastext)                   | 80.24      | 81.06     | 80.34    |
 |CNN (Wiki)                      | 79.64      | 80.23     | 79.66    |
 
+With Attention  
+
+| Model                          | Prec | Rec | F1 |
+|:-------------------------------|:----:|:---:|:--:|
+|LSTM (Glove)                    |      |     |    |
+|LSTM (Fastext)                  |      |     |    |
+|LSTM (Wiki)                     |      |     |    |
+|CNN (Glove)                     |      |     |    |
+|CNN (Fastext)                   |      |     |    |
+|CNN (Wiki)                      |      |     |    |
+
+
 Fusion Comparison
 
 | Model                          | Prec | Rec | F1 |
@@ -311,6 +335,17 @@ Without Attention
 |CNN (Glove)                     | 78.08      | 79.67     | 77.50    |
 |CNN (Fastext)                   | 76.66      | 78.32     | 76.68    |
 |CNN (Wiki)                      | 79.59      | 79.99     | 78.73    |
+
+With Attention  
+
+| Model                          | Prec | Rec | F1 |
+|:-------------------------------|:----:|:---:|:--:|
+|LSTM (Glove)                    |      |     |    |
+|LSTM (Fastext)                  |      |     |    |
+|LSTM (Wiki)                     |      |     |    |
+|CNN (Glove)                     |      |     |    |
+|CNN (Fastext)                   |      |     |    |
+|CNN (Wiki)                      |      |     |    |
 
 Fusion Comparison
 
