@@ -120,6 +120,37 @@ Other baselines
 |HybridCNN                       | 89.02      | 89.68     | 88.88    |
 |CNN-GRU                         | 88.98      | 89.91     | 89.09    |
 
+Final Presentation Table - Overall
+
+| Model                          | Prec | Rec | F1 |
+|:-------------------------------|:----:|:---:|:--:|
+|CNN-W                           | 87.88      | 88.65     | 87.95    |
+|CNN-C                           | 60.53      | 77.43     | 67.60    |
+|CNN-B                           | 78.02      | 80.33     | 77.01    |
+|LSTM-W                          | 88.08      | 89.08     | 87.87    |
+|LSTM-C                          | 77.21      | 79.88     | 76.47    |
+|LSTM-B                          | 59.97      | 77.44     | 67.60    |
+|HybridCNN                       |            |           |          |
+|CNN-GRU                         |            |           |          |
+|DeepHate (Random)               |            |           |          |
+|DeepHate (Glove)                |            |           |          |
+|DeepHate (Fastext)              |            |           |          |
+|DeepHate (Wiki)                 |            |           |          |
+
+
+
+Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel)
+
+| Model                          | Prec | Rec | F1 |
+|:-------------------------------|:----:|:---:|:--:|
+|Deephate (Semnatic)             |            |           |          |
+|Deephate (Semnatic+Sentiment)   |            |           |          |
+|Deephate (Semnatic+Topic)       |            |           |          |
+|Deephate (Sentiment+Topic)      |            |           |          |
+|Deephate (All)                  |            |           |          |
+
+
+---
 
 **Founta dataset**
 Parameters for below results:  
@@ -230,6 +261,36 @@ Other baselines
 |HybridCNN                       | 79.97      | 80.77     | 79.98    |
 |CNN-GRU                         | 79.91      | 80.51     | 79.96    |
 
+Final Presentation Table - Overall
+
+| Model                          | Prec | Rec | F1 |
+|:-------------------------------|:----:|:---:|:--:|
+|CNN-W                           | 79.33      | 80.65     | 79.38    |
+|CNN-C                           | 55.77      | 60.64     | 54.15    |
+|CNN-B                           | 69.85      | 70.50     | 66.08    |
+|LSTM-W                          | 79.45      | 80.68     | 79.31    |
+|LSTM-C                          | 70.80      | 71.57     | 67.95    |
+|LSTM-B                          | 54.33      | 61.02     | 54.02    |
+|HybridCNN                       |            |           |          |
+|CNN-GRU                         |            |           |          |
+|DeepHate (Random)               |            |           |          |
+|DeepHate (Glove)                |            |           |          |
+|DeepHate (Fastext)              |            |           |          |
+|DeepHate (Wiki)                 |            |           |          |
+
+
+Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel)
+
+| Model                          | Prec | Rec | F1 |
+|:-------------------------------|:----:|:---:|:--:|
+|Deephate (Semnatic)             |            |           |          |
+|Deephate (Semnatic+Sentiment)   |            |           |          |
+|Deephate (Semnatic+Topic)       |            |           |          |
+|Deephate (Sentiment+Topic)      |            |           |          |
+|Deephate (All)                  |            |           |          |
+
+---
+
 **WZ dataset**
 Parameters for below results:  
 Num_hidden_state = 200  
@@ -338,3 +399,30 @@ Other baselines
 |HybridCNN                       | 77.97      | 79.73     | 77.53    |
 |CNN-GRU                         | 75.58      | 79.70     | 74.98    |
 
+
+Final Presentation Table - Overall
+
+| Model                          | Prec | Rec | F1 |
+|:-------------------------------|:----:|:---:|:--:|
+|CNN-W                           | 75.95      | 78.57     | 75.54    |
+|CNN-C                           | 54.77      | 74.01     | 62.95    |
+|CNN-B                           | 76.30      | 79.08     | 74.78    |
+|LSTM-W                          | 75.39      | 79.52     | 74.52    |
+|LSTM-C                          | 74.82      | 78.13     | 71.95    |
+|LSTM-B                          | 54.77      | 74.01     | 62.95    |
+|HybridCNN                       |            |           |          |
+|CNN-GRU                         |            |           |          |
+|DeepHate (Random)               |            |           |          |
+|DeepHate (Glove)                |            |           |          |
+|DeepHate (Fastext)              |            |           |          |
+|DeepHate (Wiki)                 |            |           |          |
+
+Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel)
+
+| Model                          | Prec | Rec | F1 |
+|:-------------------------------|:----:|:---:|:--:|
+|Deephate (Semnatic)             |            |           |          |
+|Deephate (Semnatic+Sentiment)   |            |           |          |
+|Deephate (Semnatic+Topic)       |            |           |          |
+|Deephate (Sentiment+Topic)      |            |           |          |
+|Deephate (All)                  |            |           |          |
