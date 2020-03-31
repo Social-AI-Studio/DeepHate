@@ -37,12 +37,12 @@ With Attention
 
 | Model                          | Prec | Rec | F1 |
 |:-------------------------------|:----:|:---:|:--:|
-|LSTM (Glove)                    |      |     |    |
-|LSTM (Fastext)                  |      |     |    |
-|LSTM (Wiki)                     |      |     |    |
-|CNN (Glove)                     |      |     |    |
-|CNN (Fastext)                   |      |     |    |
-|CNN (Wiki)                      |      |     |    |
+|LSTM (Glove)                    |89.05      |89.86     |89.08    |
+|LSTM (Fastext)                  |89.91      |90.52     |89.94    |
+|LSTM (Wiki)                     |89.32      |90.24     |89.42    |
+|CNN (Glove)                     |88.64      |89.93     |88.67    |
+|CNN (Fastext)                   |89.31      |90.21     |89.39    |
+|CNN (Wiki)                      |89.20      |90.22     |89.12    |
 
 
 Fusion Comparison
@@ -190,12 +190,12 @@ With Attention
 
 | Model                          | Prec | Rec | F1 |
 |:-------------------------------|:----:|:---:|:--:|
-|LSTM (Glove)                    |      |     |    |
-|LSTM (Fastext)                  |      |     |    |
-|LSTM (Wiki)                     |      |     |    |
-|CNN (Glove)                     |      |     |    |
-|CNN (Fastext)                   |      |     |    |
-|CNN (Wiki)                      |      |     |    |
+|LSTM (Glove)                    |80.15      |81.21     |80.22    |
+|LSTM (Fastext)                  |80.23      |81.47     |80.34    |
+|LSTM (Wiki)                     |79.38      |80.55     |79.60    |
+|CNN (Glove)                     |80.27      |81.48     |80.26    |
+|CNN (Fastext)                   |80.06      |81.41     |79.91    |
+|CNN (Wiki)                      |79.67      |80.95     |79.74    |
 
 
 Fusion Comparison
@@ -340,12 +340,12 @@ With Attention
 
 | Model                          | Prec | Rec | F1 |
 |:-------------------------------|:----:|:---:|:--:|
-|LSTM (Glove)                    |      |     |    |
-|LSTM (Fastext)                  |      |     |    |
-|LSTM (Wiki)                     |      |     |    |
-|CNN (Glove)                     |      |     |    |
-|CNN (Fastext)                   |      |     |    |
-|CNN (Wiki)                      |      |     |    |
+|LSTM (Glove)                    |76.30      |79.70     |75.83    |
+|LSTM (Fastext)                  |76.52      |79.09     |76.10    |
+|LSTM (Wiki)                     |78.53      |80.20     |77.67    |
+|CNN (Glove)                     |76.77      |79.09     |76.36    |
+|CNN (Fastext)                   |76.86      |78.61     |76.26    |
+|CNN (Wiki)                      |79.33      |80.45     |78.39    |
 
 Fusion Comparison
 
