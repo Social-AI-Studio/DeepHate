@@ -144,7 +144,7 @@ Final Presentation Table - Overall
 |LSTM-B                          | 59.97      | 77.44     | 67.60    |
 |HybridCNN                       | 88.33      | 88.96     | 88.07    |
 |CNN-GRU                         | 87.60      | 88.24     | 87.23    |
-|DeepHate (Random)               |            |           |          |
+|DeepHate (Random)               | 85.13      | 88.68     | 86.17    |
 |DeepHate (Glove)                | 88.96      | 90.10     | 88.98    |
 |DeepHate (Fastext)              | 89.42      | 90.54     | 89.52    |
 |DeepHate (Wiki)                 | 89.51      | 90.52     | 89.55    |
@@ -155,12 +155,12 @@ Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel
 
 | Model                          | Prec | Rec | F1 |
 |:-------------------------------|:----:|:---:|:--:|
-|Deephate (Semnatic)             |            |           |          |
+|Deephate (Semnatic)             | 89.44      | 90.24     | 89.49    |
 |Deephate (Semnatic+Sentiment)   | 89.59      | 90.39     | 89.64    |
 |Deephate (Semnatic+Topic)       | 89.56      | 90.28     | 89.64    |
 |Deephate (Sentiment+Topic)      | 86.94      | 88.50     | 86.89    |
 |Deephate (All) two gates        | 89.28      | 90.08     | 89.41    |
-|Deephate (All) gate three       |            |           |          |
+|Deephate (All) gate three       | 89.52      | 90.42     | 89.70    |
 
 ---
 
@@ -297,7 +297,7 @@ Final Presentation Table - Overall
 |LSTM-B                          | 54.33      | 61.02     | 54.02    |
 |HybridCNN                       | 79.39      | 80.51     | 79.18    |
 |CNN-GRU                         | 78.74      | 80.01     | 78.80    |
-|DeepHate (Random)               |            |           |          |
+|DeepHate (Random)               | 78.77      | 79.00     | 78.54    |
 |DeepHate (Glove)                | 79.80      | 80.56     | 79.90    |
 |DeepHate (Fastext)              | 80.00      | 80.71     | 80.12    |
 |DeepHate (Wiki)                 | 79.09      | 80.30     | 79.36    |
@@ -307,12 +307,12 @@ Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel
 
 | Model                          | Prec | Rec | F1 |
 |:-------------------------------|:----:|:---:|:--:|
-|Deephate (Semnatic)             |            |           |          |
+|Deephate (Semnatic)             | 78.84      | 79.97     | 79.15    |
 |Deephate (Semnatic+Sentiment)   | 78.87      | 80.10     | 79.23    |
 |Deephate (Semnatic+Topic)       | 78.97      | 79.61     | 79.15    |
 |Deephate (Sentiment+Topic)      | 79.59      | 81.04     | 79.67    |
 |Deephate (All) two gates        | 79.00      | 79.75     | 79.21    |
-|Deephate (All) gate three       |            |           |          |
+|Deephate (All) gate three       | 79.00      | 80.12     | 79.32    |
 
 ---
 
@@ -448,7 +448,7 @@ Final Presentation Table - Overall
 |LSTM-B                          | 54.77      | 74.01     | 62.95    |
 |HybridCNN                       | 76.35      | 78.93     | 75.98    |
 |CNN-GRU                         | 75.33      | 79.27     | 74.42    |
-|DeepHate (Random)               |            |           |          |
+|DeepHate (Random)               | 76.48      | 79.48     | 75.23    |
 |DeepHate (Glove)                | 77.43      | 79.50     | 77.19    |
 |DeepHate (Fastext)              | 76.48      | 78.26     | 76.48    |
 |DeepHate (Wiki)                 | 78.76      | 79.71     | 78.15    |
@@ -457,9 +457,9 @@ Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel
 
 | Model                          | Prec | Rec | F1 |
 |:-------------------------------|:----:|:---:|:--:|
-|Deephate (Semnatic)             |            |           |          |
+|Deephate (Semnatic)             | 77.00      | 78.75     | 77.04    |
 |Deephate (Semnatic+Sentiment)   | 77.09      | 78.62     | 77.35    |
 |Deephate (Semnatic+Topic)       | 77.98      | 79.32     | 77.98    |
 |Deephate (Sentiment+Topic)      | 75.57      | 79.69     | 74.27    |
 |Deephate (All) two gates        | 76.81      | 78.51     | 76.93    |
-|Deephate (All) gate three       |            |           |          |
+|Deephate (All) gate three       | 77.38      | 78.56     | 77.59    |
