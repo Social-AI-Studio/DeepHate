@@ -145,9 +145,9 @@ Final Presentation Table - Overall
 |HybridCNN                       | 88.33      | 88.96     | 88.07    |
 |CNN-GRU                         | 87.60      | 88.24     | 87.23    |
 |DeepHate (Random)               |            |           |          |
-|DeepHate (Glove)                |            |           |          |
+|DeepHate (Glove)                | 88.96      | 90.10     | 88.98    |
 |DeepHate (Fastext)              |            |           |          |
-|DeepHate (Wiki)                 |            |           |          |
+|DeepHate (Wiki)                 | 89.51      | 90.52     | 89.55    |
 
 
 
@@ -298,9 +298,9 @@ Final Presentation Table - Overall
 |HybridCNN                       | 79.39      | 80.51     | 79.18    |
 |CNN-GRU                         | 78.74      | 80.01     | 78.80    |
 |DeepHate (Random)               |            |           |          |
-|DeepHate (Glove)                |            |           |          |
+|DeepHate (Glove)                | 79.80      | 80.56     | 79.90    |
 |DeepHate (Fastext)              |            |           |          |
-|DeepHate (Wiki)                 |            |           |          |
+|DeepHate (Wiki)                 | 79.09      | 80.30     | 79.36    |
 
 
 Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel)
@@ -448,9 +448,9 @@ Final Presentation Table - Overall
 |HybridCNN                       | 76.35      | 78.93     | 75.98    |
 |CNN-GRU                         | 75.33      | 79.27     | 74.42    |
 |DeepHate (Random)               |            |           |          |
-|DeepHate (Glove)                |            |           |          |
+|DeepHate (Glove)                | 77.43      | 79.50     | 77.19    |
 |DeepHate (Fastext)              |            |           |          |
-|DeepHate (Wiki)                 |            |           |          |
+|DeepHate (Wiki)                 | 78.76      | 79.71     | 78.15    |
 
 Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel)
 
