@@ -146,7 +146,7 @@ Final Presentation Table - Overall
 |CNN-GRU                         | 87.60      | 88.24     | 87.23    |
 |DeepHate (Random)               |            |           |          |
 |DeepHate (Glove)                | 88.96      | 90.10     | 88.98    |
-|DeepHate (Fastext)              |            |           |          |
+|DeepHate (Fastext)              | 89.42      | 90.54     | 89.52    |
 |DeepHate (Wiki)                 | 89.51      | 90.52     | 89.55    |
 
 
@@ -156,11 +156,11 @@ Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel
 | Model                          | Prec | Rec | F1 |
 |:-------------------------------|:----:|:---:|:--:|
 |Deephate (Semnatic)             |            |           |          |
-|Deephate (Semnatic+Sentiment)   |            |           |          |
-|Deephate (Semnatic+Topic)       |            |           |          |
-|Deephate (Sentiment+Topic)      |            |           |          |
-|Deephate (All)                  |            |           |          |
-
+|Deephate (Semnatic+Sentiment)   | 89.59      | 90.39     | 89.64    |
+|Deephate (Semnatic+Topic)       | 89.56      | 90.28     | 89.64    |
+|Deephate (Sentiment+Topic)      | 86.94      | 88.50     | 86.89    |
+|Deephate (All) two gates        | 89.28      | 90.08     | 89.41    |
+|Deephate (All) gate three       |            |           |          |
 
 ---
 
@@ -299,7 +299,7 @@ Final Presentation Table - Overall
 |CNN-GRU                         | 78.74      | 80.01     | 78.80    |
 |DeepHate (Random)               |            |           |          |
 |DeepHate (Glove)                | 79.80      | 80.56     | 79.90    |
-|DeepHate (Fastext)              |            |           |          |
+|DeepHate (Fastext)              | 80.00      | 80.71     | 80.12    |
 |DeepHate (Wiki)                 | 79.09      | 80.30     | 79.36    |
 
 
@@ -308,10 +308,11 @@ Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel
 | Model                          | Prec | Rec | F1 |
 |:-------------------------------|:----:|:---:|:--:|
 |Deephate (Semnatic)             |            |           |          |
-|Deephate (Semnatic+Sentiment)   |            |           |          |
-|Deephate (Semnatic+Topic)       |            |           |          |
-|Deephate (Sentiment+Topic)      |            |           |          |
-|Deephate (All)                  |            |           |          |
+|Deephate (Semnatic+Sentiment)   | 78.87      | 80.10     | 79.23    |
+|Deephate (Semnatic+Topic)       | 78.97      | 79.61     | 79.15    |
+|Deephate (Sentiment+Topic)      | 79.59      | 81.04     | 79.67    |
+|Deephate (All) two gates        | 79.00      | 79.75     | 79.21    |
+|Deephate (All) gate three       |            |           |          |
 
 ---
 
@@ -449,7 +450,7 @@ Final Presentation Table - Overall
 |CNN-GRU                         | 75.33      | 79.27     | 74.42    |
 |DeepHate (Random)               |            |           |          |
 |DeepHate (Glove)                | 77.43      | 79.50     | 77.19    |
-|DeepHate (Fastext)              |            |           |          |
+|DeepHate (Fastext)              | 76.48      | 78.26     | 76.48    |
 |DeepHate (Wiki)                 | 78.76      | 79.71     | 78.15    |
 
 Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel)
@@ -457,7 +458,8 @@ Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel
 | Model                          | Prec | Rec | F1 |
 |:-------------------------------|:----:|:---:|:--:|
 |Deephate (Semnatic)             |            |           |          |
-|Deephate (Semnatic+Sentiment)   |            |           |          |
-|Deephate (Semnatic+Topic)       |            |           |          |
-|Deephate (Sentiment+Topic)      |            |           |          |
-|Deephate (All)                  |            |           |          |
+|Deephate (Semnatic+Sentiment)   | 77.09      | 78.62     | 77.35    |
+|Deephate (Semnatic+Topic)       | 77.98      | 79.32     | 77.98    |
+|Deephate (Sentiment+Topic)      | 75.57      | 79.69     | 74.27    |
+|Deephate (All) two gates        | 76.81      | 78.51     | 76.93    |
+|Deephate (All) gate three       |            |           |          |
