@@ -148,9 +148,9 @@ Final Presentation Table - Overall
 |CNN-LSTM (Glove)                | 88.96      | 90.10     | 88.98    |
 |CNN-LSTM (Fastext)              | 89.42      | 90.54     | 89.52    |
 |CNN-LSTM (Wiki)                 | 89.51      | 90.52     | 89.55    |
-|Deephate (Random)               |       |      |     |
-|Deephate (Glove)                |       |      |     |
-|Deephate (Fastext)              |       |      |     |
+|Deephate (Random)               | 88.89      | 89.75     | 89.00    |
+|Deephate (Glove)                | 88.82      | 89.71     | 88.93    |
+|Deephate (Fastext)              | 89.75      | 90.60     | 89.91    |
 |Deephate (Wiki)                 |       |      |     |
 
 
@@ -304,9 +304,9 @@ Final Presentation Table - Overall
 |CNN-LSTM (Glove)                | 79.80      | 80.56     | 79.90    |
 |CNN-LSTM (Fastext)              | 80.00      | 80.71     | 80.12    |
 |CNN-LSTM (Wiki)                 | 79.09      | 80.30     | 79.36    |
-|Deephate (Random)               |       |      |     |
-|Deephate (Glove)                |       |      |     |
-|Deephate (Fastext)              |       |      |     |
+|Deephate (Random)               | 79.69      | 80.44     | 79.79    |
+|Deephate (Glove)                | 79.59      | 80.50     | 79.77    |
+|Deephate (Fastext)              | 79.83      | 80.98     | 80.10    |
 |Deephate (Wiki)                 |       |      |     |
 
 Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel)
@@ -458,9 +458,9 @@ Final Presentation Table - Overall
 |CNN-LSTM (Glove)                | 77.43      | 79.50     | 77.19    |
 |CNN-LSTM (Fastext)              | 76.48      | 78.26     | 76.48    |
 |CNN-LSTM (Wiki)                 | 78.76      | 79.71     | 78.15    |
-|Deephate (Random)               |       |      |     |
-|Deephate (Glove)                |       |      |     |
-|Deephate (Fastext)              |       |      |     |
+|Deephate (Random)               | 77.15      | 79.86     | 75.63    |
+|Deephate (Glove)                | 77.54      | 79.62     | 77.65    |
+|Deephate (Fastext)              | 76.27      | 78.39     | 76.31    |
 |Deephate (Wiki)                 |       |      |     |
 
 Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel)
