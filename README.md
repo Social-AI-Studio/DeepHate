@@ -151,7 +151,7 @@ Final Presentation Table - Overall
 |Deephate (Random)               | 88.89      | 89.75     | 89.00    |
 |Deephate (Glove)                | 88.82      | 89.71     | 88.93    |
 |Deephate (Fastext)              | 89.75      | 90.60     | 89.91    |
-|Deephate (Wiki)                 |       |      |     |
+|Deephate (Wiki)                 | 89.12      | 90.19     | 89.32    |
 
 
 Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel)
@@ -307,7 +307,7 @@ Final Presentation Table - Overall
 |Deephate (Random)               | 79.69      | 80.44     | 79.79    |
 |Deephate (Glove)                | 79.59      | 80.50     | 79.77    |
 |Deephate (Fastext)              | 79.83      | 80.98     | 80.10    |
-|Deephate (Wiki)                 |       |      |     |
+|Deephate (Wiki)                 | 79.06      | 80.47     | 79.38    |
 
 Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel)
 
@@ -461,7 +461,7 @@ Final Presentation Table - Overall
 |Deephate (Random)               | 77.15      | 79.86     | 75.63    |
 |Deephate (Glove)                | 77.54      | 79.62     | 77.65    |
 |Deephate (Fastext)              | 76.27      | 78.39     | 76.31    |
-|Deephate (Wiki)                 |       |      |     |
+|Deephate (Wiki)                 | 78.26      | 79.73     | 78.40    |
 
 Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel)
 
