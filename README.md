@@ -164,9 +164,9 @@ Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel
 |Deephate (Sentiment+Topic)      | 86.94      | 88.50     | 86.89    |
 |Deephate (All) two gates        | 89.28      | 90.08     | 89.41    |
 |Deephate (Fasttext) gate three  | 89.75      | 90.60     | 89.91    |
-|Deephate (Fasttext)             |       |      |     |
-|Deephate (Fasttext+Sentiment)   |       |      |     |
-|Deephate (Fasttext+Topic)       |       |      |     |
+|Deephate (Fasttext)             | 89.32      | 90.35     | 89.31    |
+|Deephate (Fasttext+Sentiment)   | 89.41      | 90.33     | 89.49    |
+|Deephate (Fasttext+Topic)       | 89.23      | 90.40     | 89.32    |
 
 ---
 
@@ -322,9 +322,9 @@ Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel
 |Deephate (Sentiment+Topic)      | 79.59      | 81.04     | 79.67    |
 |Deephate (All) two gates        | 79.00      | 79.75     | 79.21    |
 |Deephate (Fasttext) gate three  | 79.83      | 80.98     | 80.10    |
-|Deephate (Fasttext)             |       |      |     |
-|Deephate (Fasttext+Sentiment)   |       |      |     |
-|Deephate (Fasttext+Topic)       |       |      |     |
+|Deephate (Fasttext)             | 78.97      | 80.37     | 79.32    |
+|Deephate (Fasttext+Sentiment)   | 78.93      | 80.36     | 79.27    |
+|Deephate (Fasttext+Topic)       | 78.90      | 80.28     | 79.26    |
 
 ---
 
@@ -479,6 +479,6 @@ Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel
 |Deephate (Sentiment+Topic)      | 75.57      | 79.69     | 74.27    |
 |Deephate (All) two gates        | 76.81      | 78.51     | 76.93    |
 |Deephate (Wiki) gate three       | 77.38      | 78.56     | 77.59    |
-|Deephate (Wiki)             |       |      |     |
-|Deephate (Wiki+Sentiment)   |       |      |     |
-|Deephate (Wiki+Topic)       |       |      |     |
+|Deephate (Wiki)             | 76.13      | 78.54     | 76.37    |
+|Deephate (Wiki+Sentiment)   | 75.28      | 77.79     | 75.37    |
+|Deephate (Wiki+Topic)       | 76.66      | 78.86     | 76.87    |
