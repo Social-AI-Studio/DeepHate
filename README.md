@@ -163,7 +163,10 @@ Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel
 |Deephate (Semnatic+Topic)       | 89.56      | 90.28     | 89.64    |
 |Deephate (Sentiment+Topic)      | 86.94      | 88.50     | 86.89    |
 |Deephate (All) two gates        | 89.28      | 90.08     | 89.41    |
-|Deephate (All) gate three       | 89.52      | 90.42     | 89.70    |
+|Deephate (Fasttext) gate three  | 89.75      | 90.60     | 89.91    |
+|Deephate (Fasttext)             |       |      |     |
+|Deephate (Fasttext+Sentiment)   |       |      |     |
+|Deephate (Fasttext+Topic)       |       |      |     |
 
 ---
 
@@ -318,7 +321,10 @@ Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel
 |Deephate (Semnatic+Topic)       | 78.97      | 79.61     | 79.15    |
 |Deephate (Sentiment+Topic)      | 79.59      | 81.04     | 79.67    |
 |Deephate (All) two gates        | 79.00      | 79.75     | 79.21    |
-|Deephate (All) gate three       | 79.00      | 80.12     | 79.32    |
+|Deephate (Fasttext) gate three  | 79.83      | 80.98     | 80.10    |
+|Deephate (Fasttext)             |       |      |     |
+|Deephate (Fasttext+Sentiment)   |       |      |     |
+|Deephate (Fasttext+Topic)       |       |      |     |
 
 ---
 
@@ -472,4 +478,7 @@ Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel
 |Deephate (Semnatic+Topic)       | 77.98      | 79.32     | 77.98    |
 |Deephate (Sentiment+Topic)      | 75.57      | 79.69     | 74.27    |
 |Deephate (All) two gates        | 76.81      | 78.51     | 76.93    |
-|Deephate (All) gate three       | 77.38      | 78.56     | 77.59    |
+|Deephate (Wiki) gate three       | 77.38      | 78.56     | 77.59    |
+|Deephate (Wiki)             |       |      |     |
+|Deephate (Wiki+Sentiment)   |       |      |     |
+|Deephate (Wiki+Topic)       |       |      |     |
