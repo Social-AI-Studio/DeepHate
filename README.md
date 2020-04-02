@@ -144,11 +144,14 @@ Final Presentation Table - Overall
 |LSTM-B                          | 59.97      | 77.44     | 67.60    |
 |HybridCNN                       | 88.33      | 88.96     | 88.07    |
 |CNN-GRU                         | 87.60      | 88.24     | 87.23    |
-|DeepHate (Random)               | 85.13      | 88.68     | 86.17    |
-|DeepHate (Glove)                | 88.96      | 90.10     | 88.98    |
-|DeepHate (Fastext)              | 89.42      | 90.54     | 89.52    |
-|DeepHate (Wiki)                 | 89.51      | 90.52     | 89.55    |
-
+|CNN-LSTM (Random)               | 85.13      | 88.68     | 86.17    |
+|CNN-LSTM (Glove)                | 88.96      | 90.10     | 88.98    |
+|CNN-LSTM (Fastext)              | 89.42      | 90.54     | 89.52    |
+|CNN-LSTM (Wiki)                 | 89.51      | 90.52     | 89.55    |
+|Deephate (Random)               |       |      |     |
+|Deephate (Glove)                |       |      |     |
+|Deephate (Fastext)              |       |      |     |
+|Deephate (Wiki)                 |       |      |     |
 
 
 Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel)
@@ -297,11 +300,14 @@ Final Presentation Table - Overall
 |LSTM-B                          | 54.33      | 61.02     | 54.02    |
 |HybridCNN                       | 79.39      | 80.51     | 79.18    |
 |CNN-GRU                         | 78.74      | 80.01     | 78.80    |
-|DeepHate (Random)               | 78.77      | 79.00     | 78.54    |
-|DeepHate (Glove)                | 79.80      | 80.56     | 79.90    |
-|DeepHate (Fastext)              | 80.00      | 80.71     | 80.12    |
-|DeepHate (Wiki)                 | 79.09      | 80.30     | 79.36    |
-
+|CNN-LSTM (Random)               | 78.77      | 79.00     | 78.54    |
+|CNN-LSTM (Glove)                | 79.80      | 80.56     | 79.90    |
+|CNN-LSTM (Fastext)              | 80.00      | 80.71     | 80.12    |
+|CNN-LSTM (Wiki)                 | 79.09      | 80.30     | 79.36    |
+|Deephate (Random)               |       |      |     |
+|Deephate (Glove)                |       |      |     |
+|Deephate (Fastext)              |       |      |     |
+|Deephate (Wiki)                 |       |      |     |
 
 Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel)
 
@@ -448,10 +454,14 @@ Final Presentation Table - Overall
 |LSTM-B                          | 54.77      | 74.01     | 62.95    |
 |HybridCNN                       | 76.35      | 78.93     | 75.98    |
 |CNN-GRU                         | 75.33      | 79.27     | 74.42    |
-|DeepHate (Random)               | 76.48      | 79.48     | 75.23    |
-|DeepHate (Glove)                | 77.43      | 79.50     | 77.19    |
-|DeepHate (Fastext)              | 76.48      | 78.26     | 76.48    |
-|DeepHate (Wiki)                 | 78.76      | 79.71     | 78.15    |
+|CNN-LSTM (Random)               | 76.48      | 79.48     | 75.23    |
+|CNN-LSTM (Glove)                | 77.43      | 79.50     | 77.19    |
+|CNN-LSTM (Fastext)              | 76.48      | 78.26     | 76.48    |
+|CNN-LSTM (Wiki)                 | 78.76      | 79.71     | 78.15    |
+|Deephate (Random)               |       |      |     |
+|Deephate (Glove)                |       |      |     |
+|Deephate (Fastext)              |       |      |     |
+|Deephate (Wiki)                 |       |      |     |
 
 Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel)
 
