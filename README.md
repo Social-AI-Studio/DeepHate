@@ -478,7 +478,7 @@ Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel
 |Deephate (Semnatic+Topic)       | 77.98      | 79.32     | 77.98    |
 |Deephate (Sentiment+Topic)      | 75.57      | 79.69     | 74.27    |
 |Deephate (All) two gates        | 76.81      | 78.51     | 76.93    |
-|Deephate (Wiki) gate three       | 77.38      | 78.56     | 77.59    |
+|Deephate (Wiki) gate three      | 78.26      | 79.73     | 78.40    |
 |Deephate (Wiki)             | 76.13      | 78.54     | 76.37    |
 |Deephate (Wiki+Sentiment)   | 75.28      | 77.79     | 75.37    |
 |Deephate (Wiki+Topic)       | 76.66      | 78.86     | 76.87    |
