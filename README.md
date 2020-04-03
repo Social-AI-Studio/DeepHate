@@ -144,6 +144,10 @@ Final Presentation Table - Overall
 |LSTM-B                          | 59.97      | 77.44     | 67.60    |
 |HybridCNN                       | 88.33      | 88.96     | 88.07    |
 |CNN-GRU                         | 87.60      | 88.24     | 87.23    |
+|Bi-LSTM (Random)                | 89.68      | 90.56     | 89.76    |
+|Bi-LSTM (Glove)                 | 89.15      | 90.06     | 89.18    |
+|Bi-LSTM (Fastext)               | 89.68      | 90.56     | 89.76    |
+|Bi-LSTM (Wiki)                  | 89.72      | 90.63     | 89.78    |
 |CNN-LSTM (Random)               | 85.13      | 88.68     | 86.17    |
 |CNN-LSTM (Glove)                | 88.96      | 90.10     | 88.98    |
 |CNN-LSTM (Fastext)              | 89.42      | 90.54     | 89.52    |
@@ -303,6 +307,10 @@ Final Presentation Table - Overall
 |LSTM-B                          | 54.33      | 61.02     | 54.02    |
 |HybridCNN                       | 79.39      | 80.51     | 79.18    |
 |CNN-GRU                         | 78.74      | 80.01     | 78.80    |
+|Bi-LSTM (Random)                | 79.48      | 80.20     | 79.52    |
+|Bi-LSTM (Glove)                 | 80.04      | 81.00     | 80.22    |
+|Bi-LSTM (Fastext)               | 79.53      | 80.66     | 79.74    |
+|Bi-LSTM (Wiki)                  | 80.30      | 81.17     | 80.49    |
 |CNN-LSTM (Random)               | 78.77      | 79.00     | 78.54    |
 |CNN-LSTM (Glove)                | 79.80      | 80.56     | 79.90    |
 |CNN-LSTM (Fastext)              | 80.00      | 80.71     | 80.12    |
@@ -460,6 +468,10 @@ Final Presentation Table - Overall
 |LSTM-B                          | 54.77      | 74.01     | 62.95    |
 |HybridCNN                       | 76.35      | 78.93     | 75.98    |
 |CNN-GRU                         | 75.33      | 79.27     | 74.42    |
+|Bi-LSTM (Random)                | 75.39      | 78.67     | 75.43    |
+|Bi-LSTM (Glove)                 | 77.32      | 79.70     | 76.98    |
+|Bi-LSTM (Fastext)               | 78.51      | 80.14     | 78.13    |
+|Bi-LSTM (Wiki)                  | 76.31      | 78.56     | 76.59    |
 |CNN-LSTM (Random)               | 76.48      | 79.48     | 75.23    |
 |CNN-LSTM (Glove)                | 77.43      | 79.50     | 77.19    |
 |CNN-LSTM (Fastext)              | 76.48      | 78.26     | 76.48    |
