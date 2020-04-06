@@ -32,6 +32,14 @@ Without Attention
 |CNN (Glove)                     | 89.13      | 89.81     | 89.22    |
 |CNN (Fastext)                   | 89.25      | 90.30     | 89.42    |
 |CNN (Wiki)                      | 89.66      | 90.62     | 89.62    |
+|Bi-LSTM (Random)                | 89.68      | 90.56     | 89.76    |
+|Bi-LSTM (Glove)                 | 89.15      | 90.06     | 89.18    |
+|Bi-LSTM (Fastext)               | 89.68      | 90.56     | 89.76    |
+|Bi-LSTM (Wiki)                  | 89.72      | 90.63     | 89.78    |
+|CNN-LSTM (Random)               | 85.13      | 88.68     | 86.17    |
+|CNN-LSTM (Glove)                | 88.96      | 90.10     | 88.98    |
+|CNN-LSTM (Fastext)              | 89.42      | 90.54     | 89.52    |
+|CNN-LSTM (Wiki)                 | 89.51      | 90.52     | 89.55    |
 
 With Attention  
 
@@ -144,18 +152,11 @@ Final Presentation Table - Overall
 |LSTM-B                          | 59.97      | 77.44     | 67.60    |
 |HybridCNN                       | 88.33      | 88.96     | 88.07    |
 |CNN-GRU                         | 87.60      | 88.24     | 87.23    |
-|Bi-LSTM (Random)                | 89.68      | 90.56     | 89.76    |
-|Bi-LSTM (Glove)                 | 89.15      | 90.06     | 89.18    |
-|Bi-LSTM (Fastext)               | 89.68      | 90.56     | 89.76    |
-|Bi-LSTM (Wiki)                  | 89.72      | 90.63     | 89.78    |
-|CNN-LSTM (Random)               | 85.13      | 88.68     | 86.17    |
-|CNN-LSTM (Glove)                | 88.96      | 90.10     | 88.98    |
-|CNN-LSTM (Fastext)              | 89.42      | 90.54     | 89.52    |
-|CNN-LSTM (Wiki)                 | 89.51      | 90.52     | 89.55    |
 |Deephate (Random)               | 88.89      | 89.75     | 89.00    |
 |Deephate (Glove)                | 88.82      | 89.71     | 88.93    |
 |Deephate (Fastext)              | 89.75      | 90.60     | 89.91    |
 |Deephate (Wiki)                 | 89.12      | 90.19     | 89.32    |
+|Deephate (All)                  | 89.52      | 90.42     | 89.70    |
 
 
 Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel)
@@ -165,8 +166,8 @@ Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel
 |Deephate (Semnatic)             | 89.44      | 90.24     | 89.49    |
 |Deephate (Semnatic+Sentiment)   | 89.59      | 90.39     | 89.64    |
 |Deephate (Semnatic+Topic)       | 89.56      | 90.28     | 89.64    |
-|Deephate (Sentiment+Topic)      | 86.94      | 88.50     | 86.89    |
 |Deephate (All) two gates        | 89.28      | 90.08     | 89.41    |
+|Deephate (All) gate three       | 89.52      | 90.42     | 89.70    |
 |Deephate (Fasttext) gate three  | 89.75      | 90.60     | 89.91    |
 |Deephate (Fasttext)             | 89.32      | 90.35     | 89.31    |
 |Deephate (Fasttext+Sentiment)   | 89.41      | 90.33     | 89.49    |
@@ -195,6 +196,14 @@ Without Attention
 |CNN (Glove)                     | 80.06      | 80.59     | 80.07    |
 |CNN (Fastext)                   | 80.24      | 81.06     | 80.34    |
 |CNN (Wiki)                      | 79.64      | 80.23     | 79.66    |
+|Bi-LSTM (Random)                | 79.48      | 80.20     | 79.52    |
+|Bi-LSTM (Glove)                 | 80.04      | 81.00     | 80.22    |
+|Bi-LSTM (Fastext)               | 79.53      | 80.66     | 79.74    |
+|Bi-LSTM (Wiki)                  | 80.30      | 81.17     | 80.49    |
+|CNN-LSTM (Random)               | 78.77      | 79.00     | 78.54    |
+|CNN-LSTM (Glove)                | 79.80      | 80.56     | 79.90    |
+|CNN-LSTM (Fastext)              | 80.00      | 80.71     | 80.12    |
+|CNN-LSTM (Wiki)                 | 79.09      | 80.30     | 79.36    |
 
 With Attention  
 
@@ -307,18 +316,13 @@ Final Presentation Table - Overall
 |LSTM-B                          | 54.33      | 61.02     | 54.02    |
 |HybridCNN                       | 79.39      | 80.51     | 79.18    |
 |CNN-GRU                         | 78.74      | 80.01     | 78.80    |
-|Bi-LSTM (Random)                | 79.48      | 80.20     | 79.52    |
-|Bi-LSTM (Glove)                 | 80.04      | 81.00     | 80.22    |
-|Bi-LSTM (Fastext)               | 79.53      | 80.66     | 79.74    |
-|Bi-LSTM (Wiki)                  | 80.30      | 81.17     | 80.49    |
-|CNN-LSTM (Random)               | 78.77      | 79.00     | 78.54    |
-|CNN-LSTM (Glove)                | 79.80      | 80.56     | 79.90    |
-|CNN-LSTM (Fastext)              | 80.00      | 80.71     | 80.12    |
-|CNN-LSTM (Wiki)                 | 79.09      | 80.30     | 79.36    |
 |Deephate (Random)               | 79.69      | 80.44     | 79.79    |
 |Deephate (Glove)                | 79.59      | 80.50     | 79.77    |
 |Deephate (Fastext)              | 79.83      | 80.98     | 80.10    |
 |Deephate (Wiki)                 | 79.06      | 80.47     | 79.38    |
+|Deephate (All)                  | 79.00      | 80.12     | 79.32    |
+
+
 
 Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel)
 
@@ -329,6 +333,7 @@ Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel
 |Deephate (Semnatic+Topic)       | 78.97      | 79.61     | 79.15    |
 |Deephate (Sentiment+Topic)      | 79.59      | 81.04     | 79.67    |
 |Deephate (All) two gates        | 79.00      | 79.75     | 79.21    |
+|Deephate (All) gate three       | 79.00      | 80.12     | 79.32    |
 |Deephate (Fasttext) gate three  | 79.83      | 80.98     | 80.10    |
 |Deephate (Fasttext)             | 78.97      | 80.37     | 79.32    |
 |Deephate (Fasttext+Sentiment)   | 78.93      | 80.36     | 79.27    |
@@ -356,6 +361,14 @@ Without Attention
 |CNN (Glove)                     | 78.08      | 79.67     | 77.50    |
 |CNN (Fastext)                   | 76.66      | 78.32     | 76.68    |
 |CNN (Wiki)                      | 79.59      | 79.99     | 78.73    |
+|Bi-LSTM (Random)                | 75.39      | 78.67     | 75.43    |
+|Bi-LSTM (Glove)                 | 77.32      | 79.70     | 76.98    |
+|Bi-LSTM (Fastext)               | 78.51      | 80.14     | 78.13    |
+|Bi-LSTM (Wiki)                  | 76.31      | 78.56     | 76.59    |
+|CNN-LSTM (Random)               | 76.48      | 79.48     | 75.23    |
+|CNN-LSTM (Glove)                | 77.43      | 79.50     | 77.19    |
+|CNN-LSTM (Fastext)              | 76.48      | 78.26     | 76.48    |
+|CNN-LSTM (Wiki)                 | 78.76      | 79.71     | 78.15    |
 
 With Attention  
 
@@ -468,18 +481,12 @@ Final Presentation Table - Overall
 |LSTM-B                          | 54.77      | 74.01     | 62.95    |
 |HybridCNN                       | 76.35      | 78.93     | 75.98    |
 |CNN-GRU                         | 75.33      | 79.27     | 74.42    |
-|Bi-LSTM (Random)                | 75.39      | 78.67     | 75.43    |
-|Bi-LSTM (Glove)                 | 77.32      | 79.70     | 76.98    |
-|Bi-LSTM (Fastext)               | 78.51      | 80.14     | 78.13    |
-|Bi-LSTM (Wiki)                  | 76.31      | 78.56     | 76.59    |
-|CNN-LSTM (Random)               | 76.48      | 79.48     | 75.23    |
-|CNN-LSTM (Glove)                | 77.43      | 79.50     | 77.19    |
-|CNN-LSTM (Fastext)              | 76.48      | 78.26     | 76.48    |
-|CNN-LSTM (Wiki)                 | 78.76      | 79.71     | 78.15    |
 |Deephate (Random)               | 77.15      | 79.86     | 75.63    |
 |Deephate (Glove)                | 77.54      | 79.62     | 77.65    |
 |Deephate (Fastext)              | 76.27      | 78.39     | 76.31    |
 |Deephate (Wiki)                 | 78.26      | 79.73     | 78.40    |
+|Deephate (All)                  | 77.38      | 78.56     | 77.59    |
+
 
 Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel)
 
@@ -490,6 +497,7 @@ Final Presentation Table - Ablation (Pick only the best performing DeepHatemodel
 |Deephate (Semnatic+Topic)       | 77.98      | 79.32     | 77.98    |
 |Deephate (Sentiment+Topic)      | 75.57      | 79.69     | 74.27    |
 |Deephate (All) two gates        | 76.81      | 78.51     | 76.93    |
+|Deephate (All) gate three       | 77.38      | 78.56     | 77.59    |
 |Deephate (Wiki) gate three      | 78.26      | 79.73     | 78.40    |
 |Deephate (Wiki)             | 76.13      | 78.54     | 76.37    |
 |Deephate (Wiki+Sentiment)   | 75.28      | 77.79     | 75.37    |
