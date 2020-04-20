@@ -4,7 +4,7 @@ To cite:
 ```
 @inproceedings{deephate20,
     title={DeepHate: Hate Speech Detection via Multi-Faceted Text Representations,
-    author={Rui, Cao, Roy Ka-Wei, Lee and Tuan-Anh, Hoang},
+    author={Cao, Rui and Lee, Roy Ka-Wei and Hoang, Tuan-Anh},
     booktitle={ACM Web Science Conference},
     month={July}
     year={2020}
