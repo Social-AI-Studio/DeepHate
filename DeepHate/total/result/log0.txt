@@ -1,0 +1,80 @@
+L_RNN_DROPOUT : 0.3
+NUM_LAYER : 1
+TOTAL_DATA : ./total/dictionary
+EPOCHS : 3
+OFFENSIVE_RESULT : ./offensive/result
+CUDA_DEVICE : 0
+BATCH_SIZE : 64
+WZ_RESULT : ./wz/result
+CROSS_VAL : 5
+GLOVE_PATH : /home/caorui/glove.6B.300d.txt
+BIDIRECT : False
+FOUNTA_DATA : ./founta/dictionary
+MIN_NUM_WORDS : 3
+SAMPLE_RATE : 0.8
+NUM_TOPICS : 15
+FC_DROPOUT : 0.2
+TEST_NUM : 0
+NUM_FILTER : 150
+SAVE_NUM : 15
+NUM_HIDDEN : 200
+PROJ_DIM : 32
+EMB_DIM : 300
+OFFENSIVE_FULL_DATA : ./offensive_full/dictionary
+WARM_UP : 2000
+NUM_ROUTINE : 3
+FAST_TEXT : /home/caorui/Reinforceenv/hate/wiki-news-300d-1M.vec
+FILTER_SIZE : 1,2,3
+SENT_EMB : /home/caorui/Reinforceenv/hate/Sentiment-Analysis-with-Word-Embeddings
+CREATE_EMB : False
+OFFENSIVE_DATA : ./offensive/dictionary
+FULL_TIMES : 2
+ATT_DROPOUT : 0.4
+OFFENSIVE_TIMES : 9
+CNN_DROPOUT : 0.0
+DATASET : total
+TOTAL_RESULT : ./total/result
+MID_DIM : 128
+CREATE_DICT : False
+LENGTH : 30
+MIN_OCC : 3
+WZ_DATA : ./wz/dictionary
+PARA_TEXT : /home/caorui/Reinforceenv/hate/paragram_300_sl999.txt
+NUM_CHAR : 30
+FOUNTA_TIMES : 8
+SPLIT_DATASET : /home/caorui/Reinforceenv/hate/split_data
+OFFENSIVE_FULL_RESULT : ./offensive_full/result
+MODEL : s
+EMB_DROPOUT : 0.5
+NUM_CHARACTER : 50
+CHAR_VOCB : 26
+SEED : 1111
+NUM_ITER : 3
+FOUNTA_RESULT : ./founta/result
+epoch 0, time: 142.29
+	train_loss: 0.01, accuracy: 90.69
+	eval accuracy: 92.30 
+	eval f1: 92.26 
+	eval precision: 92.32 
+	eval recall: 92.30 
+	eval macro f1: 91.99 
+	eval macro precision: 92.42 
+	eval macro recall: 91.67 
+epoch 1, time: 138.26
+	train_loss: 0.01, accuracy: 92.83
+	eval accuracy: 92.49 
+	eval f1: 92.46 
+	eval precision: 92.51 
+	eval recall: 92.49 
+	eval macro f1: 92.20 
+	eval macro precision: 92.59 
+	eval macro recall: 91.90 
+epoch 2, time: 138.84
+	train_loss: 0.01, accuracy: 93.36
+	eval accuracy: 92.49 
+	eval f1: 92.48 
+	eval precision: 92.49 
+	eval recall: 92.49 
+	eval macro f1: 92.24 
+	eval macro precision: 92.40 
+	eval macro recall: 92.09 

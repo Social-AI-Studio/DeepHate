@@ -1,0 +1,49 @@
+validation folder 1
+	eval score: 91.72 
+	eval precision: 91.77 
+	eval recall: 91.72 
+	eval f1: 91.67 
+	eval macro precision: 91.93 
+	eval macro recall: 90.97 
+	eval macro f1: 91.37 
+validation folder 2
+	eval score: 91.52 
+	eval precision: 91.55 
+	eval recall: 91.52 
+	eval f1: 91.47 
+	eval macro precision: 91.66 
+	eval macro recall: 90.81 
+	eval macro f1: 91.17 
+validation folder 3
+	eval score: 93.40 
+	eval precision: 93.44 
+	eval recall: 93.40 
+	eval f1: 93.37 
+	eval macro precision: 93.60 
+	eval macro recall: 92.78 
+	eval macro f1: 93.14 
+validation folder 4
+	eval score: 93.14 
+	eval precision: 93.14 
+	eval recall: 93.14 
+	eval f1: 93.14 
+	eval macro precision: 92.93 
+	eval macro recall: 92.92 
+	eval macro f1: 92.93 
+validation folder 5
+	eval score: 92.49 
+	eval precision: 92.49 
+	eval recall: 92.49 
+	eval f1: 92.48 
+	eval macro precision: 92.40 
+	eval macro recall: 92.09 
+	eval macro f1: 92.24 
+
+ final result
+	eval score: 92.45 
+	eval precision: 92.48 
+	eval recall: 92.45 
+	eval f1: 92.43 
+	eval macro precision: 92.51 
+	eval macro recall: 91.91 
+	eval macro f1: 92.17 
