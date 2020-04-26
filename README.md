@@ -23,7 +23,7 @@ In order to use our model for hate speech detection:
 
 - The training and testing process have been included in the **main** file, to start:  
 
-``` python main.py ```
+    ``` python main.py ```
     
 - The configuration are set as default in the **config.py**
 
