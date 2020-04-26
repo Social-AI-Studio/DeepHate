@@ -1,12 +1,12 @@
-#DeepHate: Hate Speech Detection via Multi-Faceted Text Representations  
+# DeepHate: Hate Speech Detection via Multi-Faceted Text Representations  
 The code implementation for the paper "DeepHate: Hate Speech Detection via Multi-Faceted Text Representations (WebSci'20)".  
 
-##Prerequisites  
+## Prerequisites  
 In order to use our model for hate speech detection:
 
 - you need to use sentiment analysis tool **VADER**
 
-##Acknowledgements  
+## Acknowledgements  
 - [VADER](https://github.com/cjhutto/vaderSentiment): the lexicon-based tool for sentiment analysis
 To cite:
 ```
