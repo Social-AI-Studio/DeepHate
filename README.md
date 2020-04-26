@@ -17,13 +17,14 @@ In order to use our model for hate speech detection:
 ## Data  
 
 - For each dataset, we split the whole dataset into five folders in advance making sure each share almost equal number of tweets from each label
-- You can find data for datasets in the file of **split_data***
+- You can find data for datasets in the file of **split_data**
 
 ## Getting Started
 
 - The training and testing process have been included in the **main** file, to start:  
 
     python main.py  
+    
 - The configuration are set as default in the **config.py**
 
 ## Acknowledgements  
