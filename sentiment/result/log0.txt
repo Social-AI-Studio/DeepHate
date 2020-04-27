@@ -1,0 +1,98 @@
+EMB_DROPOUT : 0.5
+BIDIRECT : True
+SAVE_NUM : 0
+BATCH_SIZE : 128
+MIN_OCC : 2
+CREATE_DICT : True
+LENGTH : 30
+NUM_FILTER : 5
+TRAIN_SIZE : 0.8
+CREATE_EMB : True
+DATA_PATH : /home/caorui/py35env/hate/Sentiment-Analysis-with-Word-Embeddings/hate_data
+FC_DROPOUT : 0.0
+CUDA_DEVICE : 0
+NUM_LAYER : 1
+GLOVE_PATH : /home/caorui/disk_data/videoQA/glove.6B.300d.txt
+DATASET_ENCODING : ISO-8859-1
+ATT_DROPOUT : 0.3
+PROJ_DIM : 256
+EPOCHS : 8
+NUM_HIDDEN : 100
+EMB_DIM : 300
+DATASET : wz
+SENT_LEN : 50
+MID_DIM : 256
+SEED : 1111
+L_RNN_DROPOUT : 0.3
+epoch 0, time: 1.50
+	train_loss: 0.01, accuracy: 61.16
+	eval accuracy: 65.97 
+	eval f1: 63.28 
+	eval precision: 63.67 
+	eval recall: 65.97 
+	eval macro f1: 40.51 
+	eval macro precision: 42.55 
+	eval macro recall: 40.83 
+epoch 1, time: 1.42
+	train_loss: 0.01, accuracy: 70.09
+	eval accuracy: 74.98 
+	eval f1: 72.11 
+	eval precision: 75.97 
+	eval recall: 74.98 
+	eval macro f1: 46.95 
+	eval macro precision: 52.63 
+	eval macro recall: 46.64 
+epoch 2, time: 1.46
+	train_loss: 0.01, accuracy: 75.49
+	eval accuracy: 78.73 
+	eval f1: 77.24 
+	eval precision: 77.76 
+	eval recall: 78.73 
+	eval macro f1: 51.18 
+	eval macro precision: 53.13 
+	eval macro recall: 50.76 
+epoch 3, time: 1.50
+	train_loss: 0.01, accuracy: 77.68
+	eval accuracy: 76.61 
+	eval f1: 74.21 
+	eval precision: 77.24 
+	eval recall: 76.61 
+	eval macro f1: 48.64 
+	eval macro precision: 53.44 
+	eval macro recall: 48.15 
+epoch 4, time: 1.43
+	train_loss: 0.01, accuracy: 79.04
+	eval accuracy: 79.98 
+	eval f1: 78.78 
+	eval precision: 78.70 
+	eval recall: 79.98 
+	eval macro f1: 52.45 
+	eval macro precision: 53.57 
+	eval macro recall: 52.17 
+epoch 5, time: 1.46
+	train_loss: 0.01, accuracy: 80.44
+	eval accuracy: 80.89 
+	eval f1: 79.78 
+	eval precision: 79.53 
+	eval recall: 80.89 
+	eval macro f1: 53.22 
+	eval macro precision: 54.08 
+	eval macro recall: 52.99 
+epoch 6, time: 1.50
+	train_loss: 0.01, accuracy: 81.11
+	eval accuracy: 79.67 
+	eval f1: 78.02 
+	eval precision: 79.36 
+	eval recall: 79.67 
+	eval macro f1: 51.69 
+	eval macro precision: 54.61 
+	eval macro recall: 51.10 
+epoch 7, time: 1.63
+	train_loss: 0.01, accuracy: 82.49
+	eval accuracy: 80.77 
+	eval f1: 80.49 
+	eval precision: 80.55 
+	eval recall: 80.77 
+	eval macro f1: 69.85 
+	eval macro precision: 77.42 
+	eval macro recall: 65.84 
