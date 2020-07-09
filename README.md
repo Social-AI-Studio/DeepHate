@@ -28,15 +28,13 @@ In order to use our model for hate speech detection:
 - The configuration are set as default in the **config.py**
 
 ## Acknowledgements  
-- [VADER](https://github.com/cjhutto/vaderSentiment): the lexicon-based tool for sentiment analysis
 To cite:
 ```
-@inproceedings{deephate20,
-    title={DeepHate: Hate Speech Detection via Multi-Faceted Text Representations,
-    author={Cao, Rui and Lee, Roy Ka-Wei and Hoang, Tuan-Anh},
-    booktitle={Proceedings of the 11th ACM Conference on Web Science},
-    month={July}
-    year={2020}
-    publisher={ACM}
+@inproceedings{cao2020deephate,
+  title={DeepHate: Hate Speech Detection via Multi-Faceted Text Representations},
+  author={Cao, Rui and Lee, Roy Ka-Wei and Hoang, Tuan-Anh},
+  booktitle={12th ACM Conference on Web Science},
+  pages={11--20},
+  year={2020}
 }
 ```
